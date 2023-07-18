@@ -11,6 +11,15 @@
 		BB71819E2A66FF02002D737E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB71819D2A66FF02002D737E /* ContentView.swift */; };
 		BB7181A02A66FF04002D737E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB71819F2A66FF04002D737E /* Assets.xcassets */; };
 		BB7181A32A66FF04002D737E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB7181A22A66FF04002D737E /* Preview Assets.xcassets */; };
+		BB7181AA2A66FF33002D737E /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7181A92A66FF33002D737E /* ImagePicker.swift */; };
+		BB7181AC2A66FF44002D737E /* ImageTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7181AB2A66FF44002D737E /* ImageTransfer.swift */; };
+		BB7181AE2A66FF60002D737E /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7181AD2A66FF60002D737E /* ImageSaver.swift */; };
+		BB7181B22A66FF96002D737E /* photo2cartoon.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BB7181B12A66FF96002D737E /* photo2cartoon.mlmodel */; };
+		BB7181B82A66FFB7002D737E /* whiteboxcartoonization.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BB7181B32A66FFB6002D737E /* whiteboxcartoonization.mlmodel */; };
+		BB7181B92A66FFB7002D737E /* animeganPaprika.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BB7181B42A66FFB6002D737E /* animeganPaprika.mlmodel */; };
+		BB7181BA2A66FFB7002D737E /* animeganHayao.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BB7181B52A66FFB6002D737E /* animeganHayao.mlmodel */; };
+		BB7181BB2A66FFB7002D737E /* animegan2face_paint_512_v2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BB7181B62A66FFB7002D737E /* animegan2face_paint_512_v2.mlmodel */; };
+		BB7181BC2A66FFB7002D737E /* fast-neural-style-transfer-cuphead.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BB7181B72A66FFB7002D737E /* fast-neural-style-transfer-cuphead.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		BB71819D2A66FF02002D737E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BB71819F2A66FF04002D737E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB7181A22A66FF04002D737E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB7181A92A66FF33002D737E /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		BB7181AB2A66FF44002D737E /* ImageTransfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTransfer.swift; sourceTree = "<group>"; };
+		BB7181AD2A66FF60002D737E /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		BB7181B12A66FF96002D737E /* photo2cartoon.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = photo2cartoon.mlmodel; sourceTree = "<group>"; };
+		BB7181B32A66FFB6002D737E /* whiteboxcartoonization.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = whiteboxcartoonization.mlmodel; sourceTree = "<group>"; };
+		BB7181B42A66FFB6002D737E /* animeganPaprika.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = animeganPaprika.mlmodel; sourceTree = "<group>"; };
+		BB7181B52A66FFB6002D737E /* animeganHayao.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = animeganHayao.mlmodel; sourceTree = "<group>"; };
+		BB7181B62A66FFB7002D737E /* animegan2face_paint_512_v2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = animegan2face_paint_512_v2.mlmodel; sourceTree = "<group>"; };
+		BB7181B72A66FFB7002D737E /* fast-neural-style-transfer-cuphead.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "fast-neural-style-transfer-cuphead.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +71,16 @@
 			children = (
 				BB71819B2A66FF02002D737E /* AnimateYourselfApp.swift */,
 				BB71819D2A66FF02002D737E /* ContentView.swift */,
+				BB7181A92A66FF33002D737E /* ImagePicker.swift */,
+				BB7181AB2A66FF44002D737E /* ImageTransfer.swift */,
+				BB7181AD2A66FF60002D737E /* ImageSaver.swift */,
 				BB71819F2A66FF04002D737E /* Assets.xcassets */,
+				BB7181B12A66FF96002D737E /* photo2cartoon.mlmodel */,
+				BB7181B62A66FFB7002D737E /* animegan2face_paint_512_v2.mlmodel */,
+				BB7181B52A66FFB6002D737E /* animeganHayao.mlmodel */,
+				BB7181B42A66FFB6002D737E /* animeganPaprika.mlmodel */,
+				BB7181B72A66FFB7002D737E /* fast-neural-style-transfer-cuphead.mlmodel */,
+				BB7181B32A66FFB6002D737E /* whiteboxcartoonization.mlmodel */,
 				BB7181A12A66FF04002D737E /* Preview Content */,
 			);
 			path = AnimateYourself;
@@ -137,8 +164,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB7181BA2A66FFB7002D737E /* animeganHayao.mlmodel in Sources */,
+				BB7181B82A66FFB7002D737E /* whiteboxcartoonization.mlmodel in Sources */,
+				BB7181AA2A66FF33002D737E /* ImagePicker.swift in Sources */,
 				BB71819E2A66FF02002D737E /* ContentView.swift in Sources */,
+				BB7181AE2A66FF60002D737E /* ImageSaver.swift in Sources */,
+				BB7181AC2A66FF44002D737E /* ImageTransfer.swift in Sources */,
+				BB7181BB2A66FFB7002D737E /* animegan2face_paint_512_v2.mlmodel in Sources */,
+				BB7181BC2A66FFB7002D737E /* fast-neural-style-transfer-cuphead.mlmodel in Sources */,
 				BB71819C2A66FF02002D737E /* AnimateYourselfApp.swift in Sources */,
+				BB7181B22A66FF96002D737E /* photo2cartoon.mlmodel in Sources */,
+				BB7181B92A66FFB7002D737E /* animeganPaprika.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
